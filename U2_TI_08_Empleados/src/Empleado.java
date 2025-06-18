@@ -9,6 +9,8 @@ public abstract class Empleado {
         this.salarioBase = salarioBase;
     }
 
+    public abstract double calcularSalario();
+
     public String getId() {
         return id;
     }
